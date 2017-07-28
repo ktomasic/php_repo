@@ -6,11 +6,8 @@
    </head>
 
    <body>
-      <?php
 
-      echo "kako radi git?";
 
-      ?>
    </body>
 
 </html>
