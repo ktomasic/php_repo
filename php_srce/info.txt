@@ -1,0 +1,5 @@
+
+https://www.cyberciti.biz/faq/ubuntu-linux-start-restart-stop-apache-web-server/
+
+sudo /etc/init.d/apache2 stop
+sudo /etc/init.d/mysql stop
