@@ -2,7 +2,7 @@
 <html lang="en">
    <head>
      <meta charset="utf-8">
-     <title>Prva PHP skripta</title>
+     <title>Practice>>1-1</title>
    </head>
 
    <body>

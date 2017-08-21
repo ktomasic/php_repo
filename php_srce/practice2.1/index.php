@@ -2,7 +2,7 @@
 <html>
    <head>
      <meta charset="utf-8">
-     <title>Moja Prva Stranica</title>
+     <title>Practice>>2-1</title>
    </head>
 
    <body>
