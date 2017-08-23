@@ -2,7 +2,7 @@
 <html>
    <head>
      <meta charset="utf-8">
-     <title>Practice>>2-1</title>
+     <title>2.Varijable i operacije nad njima</title>
    </head>
 
    <body>
