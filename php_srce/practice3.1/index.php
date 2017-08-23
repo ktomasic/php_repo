@@ -3,7 +3,7 @@
    <head>
      <meta charset="utf-8">
      <title>3. Operatori usporedbe, logički operatori i
-uvjetne strukture</title>
+uvjetne struktur</title>
    </head>
    
    <body>
