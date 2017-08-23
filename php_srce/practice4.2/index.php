@@ -8,7 +8,7 @@
    <body>
    <?php
     
-    $ocjena = array("Hrvatski"=> 4, "Matematika"=> 5, "Povijest"=>4);
+    $ocjena = array("Hrvatski"=> 4, "Matematika"=> 5, "Povijest"=> 4);
     $prosjek = ($ocjena["Hrvatski"]+$ocjena["Matematika"]+$ocjena["Povijest"])/3;
 
 
