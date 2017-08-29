@@ -41,14 +41,31 @@
         echo "$naziv $broj <br/> ";
     }
 */
+/*
     $brojevi = array(0,1,2,3,4);
     foreach ($brojevi as &$broj) {
        echo $broj++;
        echo "<hr/>";
-       echo $broj;
-       
+       echo $broj;  
     }
-
+*/
+/*-------------------Ugnježdena petlja
+    for ($i = 1; $i <= 3; $i++) {
+        for ($j = 1; $j <= 5; $j++) {
+            echo "$i.$j ";
+         }
+        echo "<br />";
+    }
+*/
+        $igra = array( array ("O", "O", ""),
+                       array ("O", "X", "O"),
+                       array ("X", "O", "X") );
+        for ($i = 0; $i < 3; $i++) {
+        for ($j = 0; $j < 3; $j++) {
+        echo igra[$i][$j] . " ";
+        }
+        echo "<br />";
+        }
    ?>
   
    </body>
