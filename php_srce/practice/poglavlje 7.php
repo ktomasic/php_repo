@@ -26,9 +26,16 @@
     echo pow(2,10);
     echo "<hr/>";
 
-    for ($i = 0; $i < rand(10,100); $i++)
+    for ($i = 1; $i < 6; $i++)
     {
-    $broj = rand(1,1000);
+    $broj = rand(1,50);
+    echo $broj . " ";
+    }
+    echo "<hr/>";
+
+    for ($i = 1; $i < 3; $i++)
+    {
+    $broj = rand(1,10);
     echo $broj . " ";
     }
 
