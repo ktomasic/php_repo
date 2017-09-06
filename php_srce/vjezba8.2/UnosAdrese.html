@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     
+     <title>Adresar</title>
+     <meta http-equiv="Content-Type"
+        content="text/html" />
+     <meta charset="utf-8" />  
+   </head>
+
+   <body>
+    <h1>Unos adrese</h1>
+    <form method="post" action="SpremiAdresu.php">
+      
+      Ime:<br/>
+      <input type="text" name="ime" />
+      <br/><br/>
+
+      Adresa:<br/>
+      <textarea name="adresa"></textarea>
+      <br/><br/>
+
+      Grad:<br/>
+      <select name="grad">
+      <option>Zagreb</option>
+      <option>Split</option>
+      <option>Rijeka</option>
+      <option>Osijek</option>
+      <option>Varaždin</option>
+      <option>Neki drugi grad</option>
+      </select>
+      <br/><br/>
+
+      Spol:<br/>
+      <input type="radio" value="M" name="spol" /> muški<br/>
+      <input type="radio" value="Ţ" name="spol" /> ženski
+      <br/><br/>
+
+      Prijatelj:<br/>
+      <input type="checkbox" checked="checked"
+      name="prijatelj"/>
+      <br/><br/>
+
+      <input type="submit" value="Spremi" />
+      <input type="reset" value="Odustani" />
+
+
+    </form>
+
+   </body>
+
+</html>
