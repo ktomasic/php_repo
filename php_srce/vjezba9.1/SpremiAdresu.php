@@ -36,7 +36,7 @@
         echo "Prijatelj: $prijatelj<br/>";
 
         // spremi vrijednosti u datoteku
-        $datoteka = fopen("vjezba9.1/Adresar.txt", 'w') or die ("Nije kreirana datoteka");
+        $datoteka = fopen("Adresar.txt","a") or die ("Nije kreirana datoteka");
         if($datoteka) {
         fwrite($datoteka, "\n$ime\n$adresa\n$grad\n$spol\n$prijatelj");
         fclose($datoteka);
@@ -47,3 +47,4 @@
    </body>
 
 </html>
+/var/www/html/php/php_repo/php_srce/vjezba9.1
