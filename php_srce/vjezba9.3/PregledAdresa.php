@@ -14,6 +14,7 @@
         <th>Grad</th>
         <th>Spol</th>
         <th>Prijatelj</th>
+        <th>Slika</th>
     </tr>
     <?php
     $datoteka = fopen("Adresar.txt", "r");
@@ -34,6 +35,7 @@
         echo "<td>$grad</td>";
         echo "<td>$spol</td>";
         echo "<td>$prijatelj</td>";
+        echo "<td><img src='Slike/$ime.jpg'></td>";
         echo "</tr>";
         }
         fclose($datoteka);

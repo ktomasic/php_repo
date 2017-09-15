@@ -39,9 +39,6 @@
         fclose($datoteka);
     }
 
-
-
-
     ?>
 </table>
 <br/>
